@@ -2,9 +2,9 @@
 library(tidyverse)
 library(httr)
 library(plotly)
-library(urbnthemes)
+#library(urbnthemes)
 
-set_urbn_defaults()
+#set_urbn_defaults()
 
 
 finance_chart_category <- function(data, finance_info) {

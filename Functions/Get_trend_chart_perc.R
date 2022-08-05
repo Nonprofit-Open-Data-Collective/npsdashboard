@@ -5,9 +5,9 @@
 library(tidyverse)
 library(httr)
 library(plotly)
-library(urbnthemes)
+#library(urbnthemes)
 
-set_urbn_defaults()
+#set_urbn_defaults()
 
 nonprofit_trend_perc <- function(data, year) {
   
