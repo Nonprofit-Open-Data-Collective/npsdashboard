@@ -16,10 +16,12 @@
 - www: Subdirectory to set up webpage 
 
 ## To work on: 
-1. Resize Urban Logo
+1. On the Organization Type page, selecting Category*"total_expense (%)" won't return a plot. This needs to be fixed.
+1. Resize Urban Logo 
 2. Lines (commented out) to add footer in `ui.R` are not working. Future researchers need to figure out how to build the footer
+3. Functions in `Get_finance_chart.R` could be improved so that it would be `function(data, info)` rather than `function(data, data$info)`
 3. For graphs on the Organization Type page, only data of the 10 most recent years on the [NCCS Data Archive](https://nccs-data.urban.org/data.php?ds=core) webpage is deployed on the portal. More data shall be processed and loaded to make the page comprehensive (i.e. including all data from 1989 - now)
 4. Include Volunteering and Giving information. This new page could mirror the Summary page
 5. Add titles to graphs and tables 
 6. Portal layout could be improved depending on the need and requirement
-7. Need to figure out how to publish the portal so that it's sharable
+7. Need to figure out how to publish the portal so that it's sharable and can be displayed on Urban website
